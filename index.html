@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swisslane Mobility | Chauffeur Service in Zurich</title>
+  <meta name="description" content="Private chauffeur service in Zurich for airport transfers, business travel, hotel transfers, private tours and corporate events.">
+  <meta name="theme-color" content="#090909">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23090909'/%3E%3Cpath d='M15 41h34M20 36l6-14h14l6 14M24 36h16' fill='none' stroke='%23c9a96e' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='23' cy='41' r='3' fill='%23c9a96e'/%3E%3Ccircle cx='41' cy='41' r='3' fill='%23c9a96e'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Swisslane Mobility home">
+      <span class="brand-mark">SM</span>
+      <span><strong>Swisslane</strong><small>Mobility</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#journey">Our approach</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-call" href="tel:+41789369620">+41 78 936 96 20</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <picture>
+        <source srcset="hero-zurich.webp" type="image/webp">
+        <img class="hero-image" src="hero-zurich.png" alt="Executive black sedan overlooking Zurich at dusk">
+      </picture>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Private chauffeur service · Zurich</p>
+        <h1 id="hero-title">Travel, handled<br><em>with distinction.</em></h1>
+        <p class="hero-copy">Refined private transport for airport arrivals, business travel, hotel transfers and special occasions.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#contact">Request a journey</a>
+          <a class="button button-ghost" href="https://wa.me/41789369620?text=Hello%20Swisslane%20Mobility%2C%20I%20would%20like%20to%20request%20a%20journey." target="_blank" rel="noopener">WhatsApp us</a>
+        </div>
+      </div>
+      <div class="hero-note"><span>Based in</span><strong>Zürich, Switzerland</strong></div>
+      <a class="scroll-cue" href="#services">Explore services <span>↓</span></a>
+    </section>
+
+    <section class="intro section-pad" id="services">
+      <div class="section-kicker">Our services</div>
+      <div class="intro-heading">
+        <h2>Considered transport<br>for every itinerary.</h2>
+        <p>From a precise airport pickup to a full day on the road, Swisslane Mobility keeps your journey calm, discreet and on schedule.</p>
+      </div>
+      <div class="service-grid">
+        <article><span>01</span><h3>Airport transfers</h3><p>Seamless pickup and drop-off for Zurich Airport journeys.</p></article>
+        <article><span>02</span><h3>Business clients</h3><p>Professional transport designed around demanding schedules.</p></article>
+        <article><span>03</span><h3>Hotel transfers</h3><p>Door-to-door journeys between hotels, meetings and destinations.</p></article>
+        <article><span>04</span><h3>Private tours</h3><p>Personalised travel through Zurich and destinations beyond.</p></article>
+        <article><span>05</span><h3>Corporate events</h3><p>Coordinated guest transport for meetings and company occasions.</p></article>
+      </div>
+    </section>
+
+    <section class="approach" id="journey">
+      <div class="approach-copy">
+        <p class="eyebrow">The Swisslane standard</p>
+        <h2>Quiet confidence,<br>from door to destination.</h2>
+        <p>Every journey is arranged with clear communication and close attention to your itinerary. You set the destination; we take care of the road ahead.</p>
+        <a class="text-link" href="tel:+41789369620">Speak with us <span>↗</span></a>
+      </div>
+      <div class="principles" aria-label="Service principles">
+        <div><strong>01</strong><span><b>Personal</b><small>Travel shaped around your plans.</small></span></div>
+        <div><strong>02</strong><span><b>Professional</b><small>A polished experience from first contact.</small></span></div>
+        <div><strong>03</strong><span><b>Discreet</b><small>Comfort and privacy throughout.</small></span></div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-intro">
+        <p class="eyebrow">Request a journey</p>
+        <h2>Where can we<br>take you?</h2>
+        <p>Share your journey details and continue the request directly in WhatsApp.</p>
+        <a href="tel:+41789369620">+41 78 936 96 20</a>
+      </div>
+      <form id="quote-form">
+        <label>Full name<input type="text" name="name" autocomplete="name" required placeholder="Your name"></label>
+        <label>Service<select name="service" required><option value="" selected disabled>Select a service</option><option>Airport transfer</option><option>Business travel</option><option>Hotel transfer</option><option>Private tour</option><option>Corporate event</option></select></label>
+        <div class="split">
+          <label>Pickup location<input type="text" name="pickup" required placeholder="From"></label>
+          <label>Destination<input type="text" name="destination" required placeholder="To"></label>
+        </div>
+        <div class="split">
+          <label>Date<input type="date" name="date" required></label>
+          <label>Pickup time<input type="time" name="time" required></label>
+        </div>
+        <label>Additional details<textarea name="details" rows="3" placeholder="Passengers, luggage or special requests"></textarea></label>
+        <button class="button button-gold" type="submit">Continue in WhatsApp <span>↗</span></button>
+        <p class="form-note">Submitting opens WhatsApp with your journey details. No information is stored on this website.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="brand-mark">SM</span><span><strong>Swisslane</strong><small>Mobility</small></span></a>
+    <p>Private chauffeur service in Zürich.</p>
+    <div><a href="tel:+41789369620">Call</a><a href="https://wa.me/41789369620" target="_blank" rel="noopener">WhatsApp</a><a href="#top">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
